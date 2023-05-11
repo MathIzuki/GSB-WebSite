@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+  background-color: whitesmoke;
+}
+
+
+.validtitre{
+  color: rgb(22, 22, 22);
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.validtitre:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:
+    #2a4683;
+}
+
+.titrejustificatifs{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+form{
+  margin: 0px 30%;
+  flex-direction: column;
+}
+form h2{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #2a4683;
+}
+
+
+.validationutilisateur{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+  border-top: 7px #2a4683 solid;
+  margin-bottom: 50px;
+  padding: 0px 9%;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.validationutilisateur p{
+  color: #2a4683;
+  font-size: large;
+  padding-right: 10px;
+}
+
+.validationutilisateur input{
+  padding: 5px 10px;
+}
+
+.fraisauforfait{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+  border-top: 7px #2a4683 solid;
+  margin-bottom: 50px;
+  padding: 0px 9%;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.fraisauforfait table {
+  border-top: 4px solid #2a4683;
+  padding-top: 4px;
+  border-radius: 2px;
+  color: #2a4683;
+}
+
+.fraisauforfait table th{
+  border: 1px solid #2a4683;
+  border-radius: 3px;
+  padding: 14px 14px;
+  box-shadow: 0px 0px 2.5px black;
+}
+
+.fraisauforfait table td{
+  border: 1px solid #2a4683;
+  border-radius: 3px;
+  padding: 3px;
+  box-shadow: 0px 0px 2.5px black;
+}
+
+.horsforfait{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+  border-top: 7px #2a4683 solid;
+  margin-bottom: 50px;
+  padding: 0px 9%;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.horsforfait table{
+  border-top: 4px solid #2a4683;
+  padding-top: 4px;
+  border-radius: 2px;
+  color: #2a4683;
+}
+
+.horsforfait table th{
+  border: 1px solid #2a4683;
+  border-radius: 3px;
+  padding: 14px 14px;
+  box-shadow: 0px 0px 2.5px black;
+}
+
+.horsforfait table td{
+  border: 1px solid #2a4683;
+  border-radius: 3px;
+  padding: 3px;
+  box-shadow: 0px 0px 2.5px black;
+}
+.justificatifs{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+  border-top: 7px #2a4683 solid;
+  margin-bottom: 50px;
+  padding: 0px 9%;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background-color: white;
+
+}
+
+
+.titrejustificatifs p{
+  color: #2a4683;
+  font-size: large;
+  padding-right: 10px;
+}
+
+.titrejustificatifs input{
+  padding: 5px 10px;
+}
+
+
+.selectionvisiteur{
+  padding-bottom: 10px;
+}
+
+.boutonvalider input{
+  background-color: #ffffff;
+  font-weight: 700;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  font-size: 20px;
+  border-top: 7px solid #2a4683;
+  color: #2a4683;
+  border-radius: 8px;
+  padding: 20px 45px;
+  margin: 0px 60px;
+  margin-bottom: 40px;
+  transition: 200ms;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+}
+
+.boutonvalider input:hover{
+  border-top: 7px solid #1c305a;
+  background-color: rgb(238, 238, 238);
+  transition: 200ms;
+}

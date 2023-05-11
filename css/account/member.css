@@ -1,0 +1,124 @@
+/* Style pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.allcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style pour les conteneurs de formulaire */
+.form-container {
+  background-color: #fff;
+  padding: 63px 122px 92px 69px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 70px;
+}
+
+/* Style pour les titres */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Style pour les labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+/* Style pour les messages d'erreur */
+div.error {
+  color: red;
+  margin-bottom: 16px;
+}
+
+/* Style pour les boutons */
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style pour les boutons quand la souris passe dessus */
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Style pour le mode sombre */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+}
+
+.form-container.dark-mode {
+  background-color: #222;
+  color: #f2f2f2;
+}
+
+label.dark-mode {
+  color: #f2f2f2;
+}
+
+.nomutilisateur {
+  padding-bottom: 35px;
+}
+
+input[type="text"].dark-mode,
+input[type="email"].dark-mode,
+input[type="password"].dark-mode {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #f2f2f2;
+}
+
+div.error.dark-mode {
+  color: #ff9999;
+}
+
+input[type="submit"].dark-mode {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+input[type="submit"].dark-mode:hover {
+  background-color: #666;
+  color: #f2f2f2;
+}
+
+/* Style pour le bouton de changement de mode */
+.switch-mode {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.switch-mode.dark-mode {
+  color: #f2f2f2;
+}

@@ -1,0 +1,84 @@
+/* CSS pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    }
+    
+    /* CSS pour le conteneur principal */
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    }
+    
+    /* CSS pour le titre principal */
+    header h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    }
+    
+    /* CSS pour les sections */
+    section {
+    margin-bottom: 30px;
+    }
+    
+    section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    }
+    
+    /* CSS pour les formulaires */
+    .form-group {
+    margin-bottom: 15px;
+    }
+    
+    .input-group {
+    display: flex;
+    align-items: center;
+    }
+    
+    .input-group label {
+    margin-right: 10px;
+    }
+    
+    .input-zone {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    }
+    
+    .add-button {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    /* CSS pour les tableaux */
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    table th,
+    table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    }
+    
+    /* CSS pour les boutons */
+    .button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right:10px; }

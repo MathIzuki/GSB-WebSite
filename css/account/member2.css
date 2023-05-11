@@ -1,0 +1,148 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.allcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style pour les conteneurs de formulaire */
+.form-container {
+    border-top: 7px #2a4683 solid;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 70px;
+    width: 400px;
+}
+
+/* Style pour les titres */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+/* Style pour les messages d'erreur */
+div.error {
+    color: red;
+    margin-bottom: 16px;
+}
+
+/* Style pour les boutons */
+input[type="submit"] {
+    background-color: #2a4683;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Style pour les boutons quand la souris passe dessus */
+input[type="submit"]:hover {
+    background-color: #4265b1;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Style pour le mode sombre */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f2f2f2;
+}
+
+.form-container.dark-mode {
+    background-color: #222;
+    color: #f2f2f2;
+}
+
+label.dark-mode {
+    color: #f2f2f2;
+}
+
+.nomutilisateur {
+    padding-bottom: 20px;
+}
+
+input[type="text"].dark-mode,
+input[type="email"].dark-mode,
+input[type="password"].dark-mode {
+    background-color: #333;
+    color: #f2f2f2;
+    border: none;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+div.error.dark-mode {
+    color: #ff9999;
+}
+
+input[type="submit"].dark-mode {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+input[type="submit"].dark-mode:hover {
+    background-color: #666;
+    color: #f2f2f2;
+}
+
+/* Style pour le bouton de changement de mode */
+.switch-mode {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.switch-mode.dark-mode {
+    color: #f2f2f2;
+}
+
+/* Style pour "Se rappeler de moi" */
+.remember-me {
+    display: flex;
+    align-items: baseline;
+}
+
+.remember-me label {
+    margin-left: 8px;
+    color: #333;
+}

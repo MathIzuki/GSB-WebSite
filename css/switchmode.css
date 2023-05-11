@@ -1,0 +1,50 @@
+:root {
+  --bg-color: #212121;
+  --text-color: #fff;
+  --border-color: #444;
+}
+
+body.dark-mode {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: var(--text-color);
+}
+
+.dark-mode a {
+  color: #aaa;
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="password"],
+.dark-mode input[type="email"],
+.dark-mode input[type="number"],
+.dark-mode input[type="tel"],
+.dark-mode input[type="date"],
+.dark-mode input[type="file"],
+.dark-mode select,
+.dark-mode textarea {
+  background-color: #333;
+  color: #fff;
+  border-color: var(--border-color);
+}
+
+.dark-mode input[type="submit"],
+.dark-mode button {
+  background-color: #555;
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.dark-mode input[type="submit"]:hover,
+.dark-mode button:hover {
+  background-color: #777;
+  color: var(--text-color);
+}

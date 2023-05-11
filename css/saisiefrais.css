@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+
+.saisiefrais{
+    color: rgb(22, 22, 22);
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.saisiefrais:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:
+      #2a4683;
+  }
+
+  .titrejustificatifs{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+form{
+    margin: 0px 30%;
+    flex-direction: column;
+}
+form h2{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #2a4683;
+}
+
+
+.saisieperiode{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+    border-top: 7px #2a4683 solid;
+    margin-bottom: 50px;
+    padding: 0px 9%;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background-color: white;
+
+}
+
+.saisieperiode label{
+    font-weight: 500;
+}
+
+.saisieperiode p{
+    color: #2a4683;
+    font-size: large;
+    padding-right: 10px;
+}
+
+.saisieperiode input{
+    padding: 5px 10px;
+}
+
+.fraisauforfait{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+    border-top: 7px #2a4683 solid;
+    margin-bottom: 50px;
+    padding: 0px 9%;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: #2a4683;
+}
+
+.fraisauforfait input{
+    padding: 3px 7px;
+}
+.horsforfait{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+    border-top: 7px #2a4683 solid;
+    margin-bottom: 50px;
+    padding: 0px 9%;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background-color: white;
+    
+}
+
+.horsforfait table p,label{
+    font-weight: 500;
+    color: #2a4683;
+}
+
+.horsforfait input{
+    padding: 3px 7px;
+}
+
+.horsforfait .contenuhorsforfait table{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.horsforfait .contenuhorsforfait table tr th label{
+    padding-right: 10px;
+    
+}
+
+.titre{
+    margin: 0 10px;
+}
+
+.boutonvalider input{
+    background-color: #ffffff;
+    font-weight: 700;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    font-size: 20px;
+    border-top: 7px solid #2a4683;
+    color: #2a4683;
+    border-radius: 8px;
+    padding: 20px 45px;
+    margin: 0px 60px;
+    margin-bottom: 40px;
+    transition: 200ms;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+  }
+  
+  .boutonvalider input:hover{
+    border-top: 7px solid #1c305a;
+    background-color: rgb(238, 238, 238);
+    transition: 200ms;
+  }
